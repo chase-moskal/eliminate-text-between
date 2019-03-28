@@ -1,10 +1,10 @@
 {
 	"name": "eliminate-text-between",
-	"version": "0.0.2-dev.0",
+	"version": "0.0.2-dev.1",
 	"description": "",
 	"main": "source/index.js",
 	"bin": {
-		"eliminate-text-between": "source/index.js"
+		"eliminate-text-between": "./source/index.js"
 	},
 	"scripts": {
 		"prepare": "npm run test --silent",
