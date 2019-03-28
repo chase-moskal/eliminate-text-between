@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 const {dieOnError} = require("die-on-error")
 const {readFile, writeFile} = require("fancyfs")
