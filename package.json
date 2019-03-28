@@ -1,0 +1,28 @@
+{
+	"name": "eliminate-text-between",
+	"version": "0.0.0",
+	"description": "",
+	"main": "source/index.js",
+	"bin": {
+		"eliminate-text-between": "source/index.js"
+	},
+	"scripts": {
+		"prepare": "npm run test --silent",
+		"test": "rimraf test.dist.txt && ncp test.txt test.dist.txt && node source/index.js '//<nope>' '//</nope>' test.dist.txt"
+	},
+	"files": [
+		"source"
+	],
+	"keywords": [],
+	"author": "Chase Moskal <chasemoskal@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"die-on-error": "0.0.0-dev.0",
+		"fancyfs": "^0.1.0",
+		"glob": "^7.1.3"
+	},
+	"devDependencies": {
+		"ncp": "^2.0.0",
+		"rimraf": "^2.6.3"
+	}
+}
