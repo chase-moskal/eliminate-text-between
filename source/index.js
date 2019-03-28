@@ -13,7 +13,7 @@ async function main() {
 	const [cmd, script, first, second, ...inputs] = process.argv
 
 	const regex = new RegExp(
-		`${escapeRegex(first)}([.\\s\\S]*)${escapeRegex(second)}\\n?`,
+		`${escapeRegex(first)}([.\\s\\S]*?)${escapeRegex(second)}\\n?`,
 		"igm"
 	)
 	let files = []
