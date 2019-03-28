@@ -4,3 +4,9 @@ a
 b
 //</nope>
 c
+d
+//<nope>
+e
+//</nope>
+f
+g
