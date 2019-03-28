@@ -1,7 +1,7 @@
 {
 	"name": "eliminate-text-between",
-	"version": "0.0.2",
-	"description": "",
+	"version": "0.0.3",
+	"description": "delete text in files between two string markers",
 	"main": "source/index.js",
 	"bin": {
 		"eliminate-text-between": "./source/index.js"
